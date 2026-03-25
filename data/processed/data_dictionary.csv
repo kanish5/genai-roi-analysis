@@ -1,0 +1,68 @@
+Column,Description,Type,Values/Range
+AISelect,Original AI adoption status,Categorical,"Yes, No but I plan to soon, No and I don't plan to"
+AISent,AI sentiment (original),Categorical,"Very favorable, Favorable, Indifferent, Unsure, Unfavorable, Very unfavorable"
+AIBen,AI benefits (multi-select),Text,Semicolon-separated values
+AIAcc,AI accuracy trust,Categorical,"Highly trust, Somewhat trust, Neither, Somewhat distrust, Highly distrust"
+AIComplex,AI handling complex tasks,Categorical,5-point scale from Very poor to Very well
+AIThreat,Perceive AI as job threat,Categorical,"Yes, No, I'm not sure"
+AIEthics,AI ethical concerns,Text,Multi-select values
+AIChallenges,Challenges using AI tools,Text,Semicolon-separated values
+MainBranch,Developer status,Categorical,Professional developer or learning
+DevType,Job role (original),Categorical,Multiple developer types
+OrgSize,Company size (original),Categorical,Employee count ranges
+YearsCode,Total years coding,Categorical,Numeric or text values
+YearsCodePro,Professional coding years,Categorical,Numeric or text values
+Country,Respondent country,Categorical,Country names
+CompTotal,Total annual compensation,Numeric,Raw salary value
+Currency,Compensation currency,Categorical,Currency codes
+Industry,Company industry,Categorical,Industry names
+Employment,Employment status,Categorical,Full-time/Part-time/Student etc
+RemoteWork,Remote work status,Categorical,Remote/Hybrid/In-person
+EdLevel,Education level,Categorical,Degree levels
+Age,Age group,Categorical,Age ranges
+TimeSearching,Time searching for answers,Categorical,Time ranges
+TimeAnswering,Time answering questions,Categorical,Time ranges
+JobSat,Job satisfaction score,Numeric,0-10 scale
+PurchaseInfluence,Tech purchase influence,Categorical,Influence levels
+ICorPM,Individual contributor or PM,Categorical,IC or Manager
+WorkExp,Total work experience years,Numeric,Years
+AI_Status,Cleaned AI status,Categorical,"Using AI, Planning to Use, Not Using"
+Is_AI_User,Binary AI user flag,Binary,0 or 1
+Sentiment_Score,AI sentiment (1-5),Numeric,1=Very Unfavorable to 5=Very Favorable
+Sentiment_Category,Sentiment group,Categorical,"Negative, Neutral, Positive"
+Trust_Score,AI trust (1-5),Numeric,1=Highly Distrust to 5=Highly Trust
+Complexity_Score,Complexity handling (1-5),Numeric,1=Very Poor to 5=Very Well
+Company_Size_Category,Cleaned company size,Categorical,Size categories
+Company_Size_Order,Size sort order,Numeric,1-9 for sorting
+Years_Pro_Clean,Years professional (numeric),Numeric,0.5 to 50
+Experience_Level,Experience bucket,Categorical,"Junior, Mid, Senior, Expert, Unknown"
+Threat_Category,Job threat perception,Categorical,"Threatened, Not Threatened, Uncertain"
+Role_Category,Simplified job role,Categorical,12 role categories
+Ben_Increase_productivit,Benefit: Productivity,Binary,0 or 1
+Ben_Speed_up_learning,Benefit: Learning,Binary,0 or 1
+Ben_Greater_efficiency,Benefit: Efficiency,Binary,0 or 1
+Ben_Improve_accuracy_in_,Benefit: Accuracy,Binary,0 or 1
+Ben_Make_workload_more_m,Benefit: Workload,Binary,0 or 1
+Ben_Improve_collaboratio,Benefit: Collaboration,Binary,0 or 1
+Benefits_Count,Number of benefits selected,Numeric,0 to 7
+Challenge_Trust,Challenge: Trust issues,Binary,0 or 1
+Challenge_Context,Challenge: Lacks context,Binary,0 or 1
+Challenge_Security,Challenge: Security,Binary,0 or 1
+Challenge_Training,Challenge: Training gaps,Binary,0 or 1
+Challenge_Adoption,Challenge: Uneven adoption,Binary,0 or 1
+Challenges_Count,Number of challenges,Numeric,0 to 8
+Time_Searching_Mins,Daily search time (minutes),Numeric,"7.5, 22.5, 45, 90, 150"
+Comp_Clean,Cleaned compensation,Numeric,1000-1000000
+Hourly_Rate_Est,Estimated hourly rate,Numeric,Comp_Clean / 2000
+Hours_Saved_Weekly_Low,Low estimate hours saved,Numeric,2
+Hours_Saved_Weekly_Mid,Mid estimate hours saved,Numeric,5
+Hours_Saved_Weekly_High,High estimate hours saved,Numeric,8
+Value_Annual_Low,Annual value (low scenario),Numeric,Calculated
+Value_Annual_Mid,Annual value (mid scenario),Numeric,Calculated
+Value_Annual_High,Annual value (high scenario),Numeric,Calculated
+ROI_Low,ROI % (low scenario),Numeric,Percentage
+ROI_Mid,ROI % (mid scenario),Numeric,Percentage
+ROI_High,ROI % (high scenario),Numeric,Percentage
+AI_Perception_Score,Composite perception score,Numeric,1-5 average
+AI_Perception_Category,Perception group,Categorical,"Skeptical, Neutral, Positive, Enthusiastic"
+Region,Geographic region,Categorical,11 regions
