@@ -195,9 +195,9 @@ Based on the analysis:
 ## 📧 Contact
 
 **Your Name**
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- GitHub: [Your GitHub](https://github.com/yourusername)
-- Portfolio: [Your Portfolio](https://yourportfolio.com)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/kanishtyagi123)
+- GitHub: [Your GitHub](https://github.com/kanish5)
+- Portfolio: [Your Portfolio](https://kanish5.github.io/kanish-portfolio/)
 
 ---
 
