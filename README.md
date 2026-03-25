@@ -132,13 +132,13 @@ ROI = ((Value - Cost) / Cost) × 100%
 ## 📊 Visualizations
 
 ### AI Adoption by Company Size
-![Adoption by Size](visualizations/adoption_by_company_size.png)
+![Adoption by Size](visualizations/02_adoption_by_company_size.png)
 
 ### Sentiment Distribution
-![Sentiment](visualizations/sentiment_distribution.png)
+![Sentiment](visualizations/04_sentiment_distribution.png)
 
-### ROI Analysis
-![ROI](visualizations/roi_analysis.png)
+### ROI Scenarios
+![ROI](visualizations/07_roi_scenarios.png)
 
 ---
 
